@@ -1,0 +1,37 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="styles/style.css")
+    body 
+     include modules/header
+        header
+            nav
+                ul
+                li
+                        a Главная
+                    li
+                        a Каталог
+                    li
+                        a Корм
+                    li
+                        a Особенности
+                    li
+                        a Породы
+                        
+                       
+        div.line-images
+            div.images
+                img(src="img/k4.jpg", alt="")
+                button Подробнее
+            div.images
+                img(src="img/kprm22.jpg", alt="")
+                button Подробнее
+            div.images
+                img(src="img/k6.jpg", alt="")
+                button Подробнее
+                 footer
+            | Экзаменационная работа студента группы ИСП21.2А span Соломахи Вадима
+        include modules/footer
